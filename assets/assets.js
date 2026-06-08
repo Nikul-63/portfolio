@@ -35,6 +35,11 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import mylogo from './mylogo.png';
+import mylogo2 from './mylogo2.png';
+import mylogo2_dark from './mylogo2_dark.png';
+import nikul_small from './nikul_small.png';
+import nikul_img_big from './nikul_img_big.png';
 
 export const assets = {
     user_image,
@@ -73,7 +78,12 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    mylogo, 
+    mylogo2, 
+    mylogo2_dark, 
+    nikul_small,
+    nikul_img_big
 };
 
 export const workData = [
@@ -100,18 +110,18 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Frontend Web Development', description: 'Crafting interactive, responsive, and performance-optimized user interfaces using React.js with Tailwind CSS.', link: '' },
+    { icon: assets.mobile_icon, title: 'Backend & API Engineering', description: 'Building scalable server-side applications, designing secure RESTful APIs, and managing JWT authentication flows using Node & Express.', link: '' },
+    { icon: assets.ui_icon, title: 'Database Architecture', description: 'Designing efficient data models and handling CRUD operations seamlessly using MongoDB and Mongoose frameworks.', link: '' },
+    { icon: assets.graphics_icon, title: 'Full-Stack Web Apps', description: 'Developing end-to-end, production-ready SaaS platforms and dynamic web applications with clean, scalable code architecture.', link: '' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'JavaScript, React Js, Node.js, Express.js' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Sc in Cloud & Application Development' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.mongodb, assets.figma, assets.git
 ];

@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-light-hover : #fcf4ff;
   --color-dark-hover : #2a004a;
@@ -8,11 +10,23 @@
   /* Adding font family */
   --font-outfit : 'Outfit', sans-serif;
   --font-ovo : "Ovo", serif;
+
+  /* creating a box shadow */
+  --boxShadow-black : 4px 4px 0 #000;
+  --boxShadow-white : 4px 4px 0 #fff;
+
+  /* grid for smaller devices for services section */
+  --gridTemplate-auto : repeat(auto-fit, minmax(200px, 1fr));
 }
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+}
+
+.dark {
+  --background : #11001f;
+  --foreground : #ffffff;
 }
 
 *
