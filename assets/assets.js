@@ -88,24 +88,28 @@ export const assets = {
 
 export const workData = [
     {
+        title: 'Full stack project',
+        description: 'JWT Auth',
+        bgImage: '/work1.jpeg',
+        link: 'https://main.d2xlkclacp8b5a.amplifyapp.com/'
+    },
+    {
+        title: 'Full stack project',
+        description: 'doctor appointment',
+        bgImage: '/work2.jpeg',
+        link: 'https://main.d2asz7gpqnovy6.amplifyapp.com/'
+    },
+    {
         title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        description: 'e commerce website',
+        bgImage: '/work3.jpeg',
+        link: 'https://main.d16qychi48xhlm.amplifyapp.com/'
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
-    },
-    {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'Frontend project',
+        description: 'university website',
+        bgImage: '/work4.jpeg',
+        link: 'https://main.d2rik0lw7gsps0.amplifyapp.com/'
     },
 ]
 
