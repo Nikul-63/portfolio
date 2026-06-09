@@ -97,7 +97,7 @@ export const workData = [
         title: 'Full stack project',
         description: 'doctor appointment',
         bgImage: '/work2.jpeg',
-        link: 'https://main.d2asz7gpqnovy6.amplifyapp.com/'
+        link: 'https://prescripto-1-frontend-nig9.onrender.com/'
     },
     {
         title: 'Frontend project',
