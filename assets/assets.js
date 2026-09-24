@@ -89,12 +89,6 @@ export const assets = {
 export const workData = [
     {
         title: 'Full stack project',
-        description: 'JWT Auth',
-        bgImage: '/work1.jpeg',
-        link: 'https://main.d2xlkclacp8b5a.amplifyapp.com/'
-    },
-    {
-        title: 'Full stack project',
         description: 'doctor appointment',
         bgImage: '/work2.jpeg',
         link: 'https://prescripto-1-frontend-nig9.onrender.com/'
