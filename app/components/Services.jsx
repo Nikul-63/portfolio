@@ -33,7 +33,7 @@ const Services = ({isDarkMode}) => {
             initial={{opacity : 0}}
             whileInView={{opacity : 1}}
             transition={{delay : 0.9, duration : 0.6}}
-            className='grid grid-cols-[var(--gridTemplate-auto)]  gap-6 my-10'>
+            className='grid grid-cols-[var(--gridTemplate-auto)]  gap-6 my-10 max-w-6xl mx-auto justify-center'>
                 {serviceData.map(({ title, description }, index) => (
                     <motion.div 
                     whileHover={{scale : 1.05}}
