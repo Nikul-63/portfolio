@@ -108,7 +108,7 @@ export const workData = [
     {
         title: "Full stack project",
         description: "Car rental website",
-        bgImage: '/work1.jpeg',
+        bgImage: '/work-1.jpeg',
         link: 'https://car-rental-platform-frontend-1dg6.onrender.com/'
     }
 ]
