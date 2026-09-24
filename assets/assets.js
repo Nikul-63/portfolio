@@ -97,14 +97,20 @@ export const workData = [
         title: 'Frontend project',
         description: 'e commerce website',
         bgImage: '/work3.jpeg',
-        link: 'https://main.d16qychi48xhlm.amplifyapp.com/'
+        link: 'https://greencart-ecommerce-gules.vercel.app/'
     },
     {
         title: 'Frontend project',
         description: 'university website',
         bgImage: '/work4.jpeg',
-        link: 'https://main.d2rik0lw7gsps0.amplifyapp.com/'
+        link: 'https://education-one-sable.vercel.app/'
     },
+    {
+        title: "Full stack project",
+        description: "Car rental website",
+        bgImage: '/work1.jpeg',
+        link: 'https://car-rental-platform-frontend-1dg6.onrender.com/'
+    }
 ]
 
 export const serviceData = [
